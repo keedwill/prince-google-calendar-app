@@ -1,0 +1,26 @@
+<div class="form">
+    <form action="/" method="post">
+        <a class="btn btn-warning" target="_blank" href="https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?access_type=offline&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcalendar.readonly&response_type=code&client_id=1063540795156-2uc65lc70dn2poa4vqlg51aj09gl88kl.apps.googleusercontent.com&redirect_uri=urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob&flowName=GeneralOAuthFlow"> Sign in</a>
+        <span>you need to sign in to get the Token</span>
+        <div class="mb-3">
+            <label for="token"> paste the copied token here</label>
+            <input class="form-control" name="token" type="text" placeholder="">
+        </div>
+
+        <div class="mb-3">
+            <input class="btn btn-success" type="submit" value="Get Events">
+        </div>
+
+    </form>
+{{!-- 
+    <hr>
+    <form action="/events" method="post">
+        <label for=""> Date</label>
+        <input class="form-control" name="to" type="date" placeholder="">
+        <label for=""> Event Title</label>
+        <input class="form-control" name="summary" type="email" placeholder="Title of event">
+        <label for=""> Event Body</label>
+        <input class="form-control" name="description" type="email" placeholder="Body">
+        <input class="btn btn-primary" type="submit" value="Create Event">
+    </form> --}}
+</div>
